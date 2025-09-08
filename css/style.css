@@ -208,6 +208,7 @@ address {
 
 .advantages{
     /* border: 10px solid red; */
+    padding: 120px 0;
 }
 
 .advantages-title {
@@ -220,17 +221,29 @@ address {
         color: #2E2F42;
         text-align: center; 
         width: 1158px;
+        margin-bottom: 8px;
+      
 }
+
+  .visually-hidden {
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+  }
 
 .advantages-list{
     display: flex;
     flex-wrap: nowrap;
     gap: 24px;
-    width: calc((100% - 72px) / 3);
+    width: calc((100% - 72px) / 4);
     justify-content: flex-end;
     width: 1158px;
     margin-top: 60px;
     margin-bottom: 100px;
+    .visually-hidden
 }
            
 .advantages-list-item{

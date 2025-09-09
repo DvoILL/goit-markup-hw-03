@@ -117,13 +117,11 @@ address {
 }
 
 .logo-nav {
-
     display: flex;
     margin-right: 76px;
     
 }
 .nav-links-list {
-
     margin-right: 332px;
     display: flex;
     gap: 40px; 
@@ -140,8 +138,7 @@ address {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-   
-    
+    padding: 24px 0;
 }
 
 .contacts-list-item {

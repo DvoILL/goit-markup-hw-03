@@ -384,6 +384,7 @@ address {
 /* FOOTER */
 .footer {
    background-color:  #2E2F42;
+   padding-top: 100px;
    padding-bottom: 100px;   
 }
 
@@ -395,8 +396,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-    display: inline-block;
-    margin-top: 101.5px;
+    
 }
 
 .logo-studio-span {
@@ -405,7 +405,6 @@ address {
 
 
 .footer-text {
-    border: 10px solid pink;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;

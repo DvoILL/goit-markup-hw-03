@@ -277,14 +277,17 @@ address {
 }
 
 .team-list{
+    
     background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 72px;
     padding-bottom: 32px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
+
+.name-job {
+    padding: 32px 0;
+}
 .team-title{
         font-weight: 700;
         font-size: 36px;
@@ -293,12 +296,13 @@ address {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42; 
+        margin-bottom: 72px;
 }
 
 .team-list-container{
+    
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .team-list-title {
@@ -308,7 +312,8 @@ address {
         letter-spacing: 0.02em;
         color: #2E2F42;
         margin-bottom: 8px;
-        margin-top: 24px;
+        text-align: center;
+
 }
 
 .team-list-text{
@@ -316,6 +321,7 @@ address {
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+            text-align: center;
 }
 
 

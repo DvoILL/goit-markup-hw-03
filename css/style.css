@@ -62,7 +62,9 @@ ul{
 }
 
 .nav-links-item{
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    cursor: pointer;
 }
 
 address {
@@ -123,9 +125,7 @@ address {
 .nav-links-list {
     margin-right: 332px;
     display: flex;
-    gap: 40px; 
-    padding: 24px 0;
-    
+    gap: 40px;    
 }
 
 .contacts {
@@ -203,7 +203,6 @@ address {
 /* ADVANTAGES */
 
 .advantages{
-    
     padding: 120px 0;
 }
 
@@ -234,7 +233,6 @@ address {
     display: flex;
     flex-wrap: nowrap;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
     justify-content: flex-end;
     width: 1158px;
     margin-bottom: 100px;
@@ -244,6 +242,7 @@ address {
 .advantages-list-item{
     display: flex;
     flex-direction: column;
+    width: calc((100% - 72px) / 4);
 }
 
 .advantages-list-title{
@@ -254,6 +253,7 @@ address {
         letter-spacing: 0.02em;
         color: #2E2F42;
         align-items: left;
+        margin-bottom: 8px
 }
 
 .advantages-list-text{
@@ -384,7 +384,7 @@ address {
    padding-bottom: 100px;   
 }
 
-.logo-studio{
+.logo-studio-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -392,8 +392,9 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-    
-}
+    display: inline-block;
+    margin-bottom: 16px;
+    }
 
 .logo-studio-span {
     color: #F4F4FD;
@@ -405,8 +406,6 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    display: block;
-    margin-top: 16px;
     width: 264px;
     height: 72px;
     

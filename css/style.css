@@ -104,7 +104,6 @@ address {
     
 }
 .header-container {
-    padding: 24px 0;
     display: flex;
     border-bottom: 1px solid #e7e9fc;
     
@@ -125,7 +124,8 @@ address {
 .nav-links-list {
     margin-right: 332px;
     display: flex;
-    gap: 40px;    
+    gap: 40px;  
+    padding: 24px 0;
 }
 
 .contacts {
@@ -369,7 +369,6 @@ address {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px
-
 }
 
 .portfolio-item-title{
@@ -378,6 +377,7 @@ address {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
        
 }
 

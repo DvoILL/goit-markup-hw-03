@@ -104,9 +104,8 @@ address {
 .header-container {
     padding: 24px 0;
     display: flex;
-    justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
+    
 
 }
 
@@ -138,11 +137,11 @@ address {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .contacts-list-item {
     display: flex;
+    align-items: center;
 }
 
 /* HERO */
